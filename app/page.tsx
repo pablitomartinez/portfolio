@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import LandingPage from './landingPage'
 import ContactForm from './contact'
 import About from './about'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <LandingPage/>
       <About />
       <ContactForm/>
+      <Footer/>
     </main>
   )
 }
