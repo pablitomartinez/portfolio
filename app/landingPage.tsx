@@ -6,9 +6,9 @@ import landing from '../images/landing1.jpg';
 
 const LandingPage: React.FC = () => {
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" height="100vh" >
-        <Grid container  spacing={2} >
-            <Grid item xs={12} md={6}>
+    <Grid display="flex" justifyContent="center" alignItems="center" height="100vh"  padding={8}>
+        
+            <Grid item xs={12} md={6} alignContent='center'>
                 <Box >
                     <Typography variant="h4" gutterBottom height='auto'>
                     Bienvenido a mi portafolio
@@ -18,11 +18,12 @@ const LandingPage: React.FC = () => {
                     </Typography>
                 </Box>
             </Grid>
+
             <Grid item xs={12} md={6}>
-            <Image src={landing} alt="Imagen de portafolio"  style={{ width: '80%', height:'auto' }} />
+              <Image src={landing} alt="Imagen de portafolio"  style={{ width: '80%', height:'auto' }} />
             </Grid>
-        </Grid>
-    </Box>
+       
+    </Grid>
   );
 };
 
