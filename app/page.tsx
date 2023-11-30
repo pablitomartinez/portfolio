@@ -8,12 +8,12 @@ import Footer from './footer'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <>
       <Navbar/>
       <LandingPage/>
       <About />
       <ContactForm/>
       <Footer/>
-    </main>
+    </>
   )
 }
